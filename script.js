@@ -38,3 +38,9 @@ $('#addText4').click(function(event){
     var paragraph = $('<p>').text('Hello World')
     $('#task4a').append(paragraph);
 })
+
+//Task 4b
+function changeBGgit(event){
+    var color = event.target.innerText.toLowerCase();
+    $('body').css('background-color', color)
+}
