@@ -40,7 +40,7 @@ $('#addText4').click(function(event){
 })
 
 //Task 4b
-function changeBGgit(event){
+function changeBG(event){
     var color = event.target.innerText.toLowerCase();
     $('body').css('background-color', color)
 }
