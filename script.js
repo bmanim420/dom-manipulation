@@ -50,3 +50,7 @@ $('#sum').click(function(event){
     var sum = Number($('#num1').val()) + Number($('#num2').val())
     $('#answer').text(sum);
 })
+$('#reset').click(function(event){
+    var sum = Number(0);
+    $('#answer').text(sum);
+})
